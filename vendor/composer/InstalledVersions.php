@@ -25,12 +25,12 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => 'v8.5.16',
-    'version' => '8.5.16.0',
+    'pretty_version' => 'dev-develop',
+    'version' => 'dev-develop',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => '949aabe6fe7272d8ef6d7e9a5a9169d1d96c13ce',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -444,6 +444,15 @@ private static $installed = array (
         0 => '*',
       ),
     ),
+    'laravel-frontend-presets/material-dashboard' => 
+    array (
+      'pretty_version' => 'v1.1.2',
+      'version' => '1.1.2.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'f2c3783561c48bf75a840d7b8242e36a339ea0ed',
+    ),
     'laravel/framework' => 
     array (
       'pretty_version' => 'v8.38.0',
@@ -455,12 +464,21 @@ private static $installed = array (
     ),
     'laravel/laravel' => 
     array (
-      'pretty_version' => 'v8.5.16',
-      'version' => '8.5.16.0',
+      'pretty_version' => 'dev-develop',
+      'version' => 'dev-develop',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '949aabe6fe7272d8ef6d7e9a5a9169d1d96c13ce',
+    ),
+    'laravel/legacy-factories' => 
+    array (
+      'pretty_version' => 'v1.1.0',
+      'version' => '1.1.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '5e3fe2fd5fda64e20ea5c74c831a7346294e902a',
     ),
     'laravel/sail' => 
     array (
@@ -479,6 +497,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '04ad32c1a3328081097a181875733fa51f402083',
+    ),
+    'laravel/ui' => 
+    array (
+      'pretty_version' => 'v3.2.1',
+      'version' => '3.2.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'e2478cd0342a92ec1c8c77422553bda8ee004fd0',
     ),
     'league/commonmark' => 
     array (
@@ -775,8 +802,8 @@ private static $installed = array (
     array (
       'provided' => 
       array (
-        0 => '1.0',
-        1 => '1.0.0',
+        0 => '1.0.0',
+        1 => '1.0',
       ),
     ),
     'psr/simple-cache' => 
